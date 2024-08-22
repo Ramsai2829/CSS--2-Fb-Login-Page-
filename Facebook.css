@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+.login-container img {
+    width: 200px;
+    height: auto;
+    margin-bottom: none;
+}
+.login-container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.login-container h1 {
+    font-family: 'Georgia';
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-container h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.login-container button {
+    width: 50%;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #333;
+}
+
+.login-container .links {
+    margin-top: 20px;
+}
+
+.login-container .links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.login-container .links a:hover {
+    text-decoration: underline;
+}
+
+.login-container .terms {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #888;
+}
+
+.login-container .terms a {
+    color: #000;
+    text-decoration: none;
+}
+
+.login-container .terms a:hover {
+    text-decoration: underline;
+}
